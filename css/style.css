@@ -21,5 +21,32 @@
 .kauno-he-img {
   width: 560px;
   height: 300px;
-  margin-bottom: 40px; /* 20 + 20 = 40px */
 }
+
+/*************************/
+/* USER-PAGE SECTION */
+/*************************/
+.user-page-img {
+  width: 560px;
+  height: 282px;
+}
+
+/*************************/
+/* ELECTRIC-CAR-ABC SECTION */
+/*************************/
+.electric-car-abc-img {
+  width: 560px;
+  height: 323px;
+}
+
+.electric-car-abc-description {
+  margin-bottom: 23px;
+}
+
+/*************************/
+/* FOOTER */
+/*************************/
+
+/*************************/
+/* AFTER-FOOTER */
+/*************************/

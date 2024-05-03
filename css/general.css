@@ -101,3 +101,41 @@ body {
   opacity: 1;
   margin-bottom: 16px;
 }
+
+.kauno-he-img,
+.user-page-img,
+.electric-car-abc-img {
+  margin-bottom: 40px; /* 20 + 20 = 40px */
+}
+
+.kauno-he-description,
+.user-page-description {
+  margin-bottom: 33px;
+}
+
+.btn:link,
+.btn:visited {
+  border-radius: 6px;
+  padding: 14px 24px 15px 24px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 40px;
+
+  transition: all 0.3s;
+}
+
+.btn:link,
+.btn:visited {
+  background-color: #4057e3;
+  opacity: 1;
+}
+
+.btn:hover,
+.btn:active {
+  /* background-color: #263fdf; */
+  background-color: #2038d6;
+  opacity: 1;
+}
