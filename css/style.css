@@ -1,0 +1,25 @@
+/*************************/
+/* HEADER */
+/*************************/
+
+.logo {
+  margin-bottom: 50px; /* 30 + 20 = 50px */
+}
+
+.dividing-line {
+  width: 560px;
+  height: 2px;
+  background-color: #f6f6f6;
+  opacity: 1;
+  margin-bottom: 40px; /* 20 + 20 = 40px */
+}
+
+/*************************/
+/* KAUNO-HE SECTION */
+/*************************/
+
+.kauno-he-img {
+  width: 560px;
+  height: 300px;
+  margin-bottom: 40px; /* 20 + 20 = 40px */
+}
