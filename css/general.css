@@ -4,20 +4,12 @@
 - Font sizes (px)
 
 - Font weights:
-default: 400
-Medium: 500
-Semi-bold: 600
+default / Regulat: 400
 Bold: 700
 
 - Line heights:
 Default: 1
-Small: 1.05
-medium: 1.2
-Paragraph default: 1.6
-
-- Letter spacing
--0.5px
-0.75px
+Paragraph default: 1.5
 
 --- 02 COLORS
 
@@ -94,7 +86,7 @@ body {
 
 .container-inner {
   width: 640px;
-  height: 2300px; /* 2519 - 70 - 185.46 = 2263.54 px */
+  height: 2350px; /* 2519 - 70 - 185.46 = 2263.54 px, bet vizualiai per mažas */
   margin: 0 auto;
   background-color: #ffffff;
   opacity: 1;
@@ -115,8 +107,6 @@ body {
   line-height: 1.33;
   text-align: left;
   font-weight: 700;
-  /* color: #172e62;
-  opacity: 1; */
   margin-bottom: 16px;
 }
 
@@ -126,15 +116,9 @@ body {
   margin-bottom: 40px; /* 20 + 20 = 40px */
 }
 
-.description {
-  /* color: #172e62;
-  opacity: 1; */
-}
-
 .btn:link,
 .btn:visited {
   border-radius: 6px;
-  /* padding: 14px 24px 15px 24px; */
   color: #ffffff;
   text-decoration: none;
   font-size: 14px;
@@ -144,7 +128,7 @@ body {
   align-items: center;
   margin-bottom: 40px;
 
-  transition: all 0.3s;
+  transition: all 0.4s;
 }
 
 .btn:link,
@@ -155,7 +139,6 @@ body {
 
 .btn:hover,
 .btn:active {
-  /* background-color: #263fdf; */
-  background-color: #2038d6;
-  opacity: 1;
+  transform: translateY(-7px);
+  box-shadow: 10px 24px 24px rgba(0, 0, 0, 0.06);
 }

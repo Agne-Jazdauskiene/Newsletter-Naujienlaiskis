@@ -70,9 +70,10 @@
   font-weight: 700;
 }
 
-/* i {
+.icon {
   font-size: 32px;
-} */
+  line-height: 0.2;
+}
 
 .abc-list {
   margin-bottom: 40px;
