@@ -1,42 +1,31 @@
 /* 
---- 01 TYPOGRAPHY SYSTEM
+--- TYPOGRAPHY SYSTEM
 
 - Font sizes (px)
+16px
+21px
+14px
+13px
 
 - Font weights:
-default / Regulat: 400
+Regular: 400
 Bold: 700
 
 - Line heights:
 Default: 1
-Paragraph default: 1.5
+Heading: 1.5
 
---- 02 COLORS
+--- COLORS
 
 - Primary: #4057e3
 - Tints: 
-#fdf2e9
-#fae5d3
 - Shades: 
 - Accents:
 - Greys:
-#6f6f6f (lightest grey allowed on #fdf2e9)
-#555
-#333
-#888
-#ccc
 
---- 05 SHADOWS
-
---- 06 BORDER RADIUS
+--- BORDER RADIUS
 
 Default: 6px
-Medium: 11px
-
---- 07 WHITESPACE
-
-- Spacing system (px)
-
 
 */
 
@@ -86,7 +75,7 @@ body {
 
 .container-inner {
   width: 640px;
-  height: 2350px; /* 2519 - 70 - 185.46 = 2263.54 px, bet vizualiai per mažas */
+  height: 2350px; /* 2519 - 70 - 185.46 = 2263.54 px, bet per mažas */
   margin: 0 auto;
   background-color: #ffffff;
   opacity: 1;

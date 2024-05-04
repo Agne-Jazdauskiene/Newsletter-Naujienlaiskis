@@ -114,3 +114,12 @@
   color: #b6bccb;
   margin: 0px 40px 60px 40px;
 }
+
+/* TABLET */
+/* SECTION */
+@media screen and (min-width: 768px) {
+}
+
+/* DESKTOP */
+@media screen and (min-width: 992px) {
+}
