@@ -48,6 +48,15 @@ Medium: 11px
 
 */
 
+html {
+  overflow: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -80,19 +89,17 @@ body {
   opacity: 1;
   overflow-y: scroll;
   padding: 70px 130px;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center; */
+  border: 2px solid #e6e6e6;
 }
 
 .container-inner {
   width: 640px;
-  height: 2264px; /* 2519 - 70 - 185.46 = 2264 px */
+  height: 2300px; /* 2519 - 70 - 185.46 = 2263.54 px */
   margin: 0 auto;
   background-color: #ffffff;
   opacity: 1;
   padding: 50px 40px 0px 40px;
-  margin-bottom: 20.6px;
+  margin-bottom: 20px;
 }
 
 .dividing-line {

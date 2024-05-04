@@ -9,6 +9,7 @@
 /*************************/
 /* KAUNO-HE SECTION */
 /*************************/
+
 .kauno-he-img {
   width: 560px;
   height: 300px;
@@ -26,6 +27,7 @@
 /*************************/
 /* USER-PAGE SECTION */
 /*************************/
+
 .user-page-img {
   width: 560px;
   height: 282px;
@@ -68,10 +70,9 @@
   font-weight: 700;
 }
 
-.icon-arrow i {
-  width: 24px;
-  height: 24px;
-}
+/* i {
+  font-size: 32px;
+} */
 
 .abc-list {
   margin-bottom: 40px;
@@ -110,4 +111,5 @@
   font-size: 13px;
   line-height: 1.5;
   color: #b6bccb;
+  margin: 0px 40px 60px 40px;
 }
