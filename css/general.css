@@ -21,7 +21,7 @@ Paragraph default: 1.6
 
 --- 02 COLORS
 
-- Primary: #e67e22
+- Primary: #4057e3
 - Tints: 
 #fdf2e9
 #fae5d3
@@ -38,7 +38,7 @@ Paragraph default: 1.6
 
 --- 06 BORDER RADIUS
 
-Default: 9px
+Default: 6px
 Medium: 11px
 
 --- 07 WHITESPACE
@@ -62,7 +62,6 @@ body {
   font-weight: 400;
   color: #172e62;
   opacity: 1;
-
   background-color: #fafafa;
   overflow: hidden;
   margin-top: 50px;
@@ -81,15 +80,27 @@ body {
   opacity: 1;
   overflow-y: scroll;
   padding: 70px 130px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
 }
 
 .container-inner {
   width: 640px;
-  height: 2264px; /* 2519 - 70 - 115 - 70 = 2264 px */
+  height: 2264px; /* 2519 - 70 - 185.46 = 2264 px */
   margin: 0 auto;
   background-color: #ffffff;
   opacity: 1;
   padding: 50px 40px 0px 40px;
+  margin-bottom: 20.6px;
+}
+
+.dividing-line {
+  width: 560px;
+  height: 2px;
+  background-color: #f6f6f6;
+  opacity: 1;
+  margin-bottom: 40px; /* 20 + 20 = 40px */
 }
 
 .heading-primary {
@@ -97,8 +108,8 @@ body {
   line-height: 1.33;
   text-align: left;
   font-weight: 700;
-  color: #172e62;
-  opacity: 1;
+  /* color: #172e62;
+  opacity: 1; */
   margin-bottom: 16px;
 }
 
@@ -108,20 +119,22 @@ body {
   margin-bottom: 40px; /* 20 + 20 = 40px */
 }
 
-.kauno-he-description,
-.user-page-description {
-  margin-bottom: 33px;
+.description {
+  /* color: #172e62;
+  opacity: 1; */
 }
 
 .btn:link,
 .btn:visited {
   border-radius: 6px;
-  padding: 14px 24px 15px 24px;
+  /* padding: 14px 24px 15px 24px; */
   color: #ffffff;
   text-decoration: none;
   font-size: 14px;
   font-weight: 700;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 40px;
 
   transition: all 0.3s;
