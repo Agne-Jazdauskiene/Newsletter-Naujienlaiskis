@@ -51,7 +51,6 @@ body {
   text-align: left;
   font-weight: 400;
   color: #172e62;
-  opacity: 1;
   background-color: #fafafa;
   overflow: hidden;
   margin-top: 50px;
@@ -63,22 +62,21 @@ body {
 
 .container-scroll {
   width: 900px;
-  height: 2519px;
+  /* height: 2519px; */
   max-height: 800px;
   margin: 0 auto;
   background-color: #f4f5f7;
-  opacity: 1;
   overflow-y: scroll;
-  padding: 70px 130px;
+  padding: 70px 130px 130px 130px;
   border: 2px solid #e6e6e6;
 }
 
 .container-inner {
   width: 640px;
-  height: 2350px; /* 2519 - 70 - 185.46 = 2263.54 px, bet per mažas */
+  /* height: 2350px; */
+  /* 2519 - 70 - 185.46 = 2263.54 px, bet per mažas */
   margin: 0 auto;
   background-color: #ffffff;
-  opacity: 1;
   padding: 50px 40px 0px 40px;
   margin-bottom: 20px;
 }
@@ -87,7 +85,6 @@ body {
   width: 560px;
   height: 2px;
   background-color: #f6f6f6;
-  opacity: 1;
   margin-bottom: 40px; /* 20 + 20 = 40px */
 }
 
@@ -123,7 +120,6 @@ body {
 .btn:link,
 .btn:visited {
   background-color: #4057e3;
-  opacity: 1;
 }
 
 .btn:hover,
