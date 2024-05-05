@@ -69,6 +69,11 @@
   font-weight: 700;
 }
 
+.abc-list a:hover,
+.abc-list a:active {
+  color: #918eea;
+}
+
 .icon {
   font-size: 32px;
   line-height: 0.2;
