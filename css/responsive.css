@@ -2,16 +2,20 @@
 /* RESPONSIVE DESIGN */
 /*************************/
 
-/* DESKTOP */
+/**************** DESKTOP ****************/
+
 @media screen and (max-width: 1024px) {
   .container-scroll {
     flex-wrap: wrap;
   }
 }
 
-/* TABLET */
+/**************** TABLET ****************/
+
 @media screen and (max-width: 768px) {
+  /*************************/
   /* GENERAL */
+  /*************************/
   .container-scroll {
     width: 90%;
     padding: 50px 60px 100px 60px;
@@ -66,16 +70,12 @@
   }
 
   .abc-list a {
-    text-decoration: none;
-    color: #4057e3;
-    display: flex;
-    gap: 8px;
-    align-items: center;
+    gap: 10px;
   }
 
   .list-item {
     font-size: 14px;
-    line-height: 1;
+    line-height: 1.4;
   }
 
   .icon {
@@ -93,12 +93,25 @@
   }
 }
 
-/* MOBILE */
+/**************** MOBILE ****************/
+
 @media screen and (max-width: 375px) {
+  /*************************/
   /* GENERAL */
+  /*************************/
+  body {
+    font-size: 14px;
+    line-height: 1.3;
+  }
+
   .container-scroll {
     width: 90%;
-    padding: 40px 30px 70px 30px;
+    padding: 40px 25px 70px 25px;
+  }
+
+  .container-inner {
+    padding: 30px 30px 0px 30px;
+    margin-bottom: 20px;
   }
 
   .btn:link,
@@ -119,9 +132,16 @@
   .heading-primary {
     font-size: 18px;
     line-height: 1.2;
-    text-align: left;
-    font-weight: 700;
     margin-bottom: 16px;
+  }
+
+  /*************************/
+  /* HEADER */
+  /*************************/
+
+  .logo {
+    margin-bottom: 30px;
+    width: 50%;
   }
 
   /*************************/
@@ -129,7 +149,49 @@
   /*************************/
 
   .btn-suzinoti {
-    width: 110px;
+    width: 120px;
     height: 35px;
+  }
+
+  /*************************/
+  /* USER-PAGE SECTION */
+  /*************************/
+  .btn-skaityti {
+    width: 120px;
+    height: 35px;
+  }
+
+  /*************************/
+  /* ELECTRIC-CAR-ABC SECTION */
+  /*************************/
+  .abc-list a {
+    gap: 10px;
+  }
+
+  .list-item {
+    font-size: 13px;
+    line-height: 1.4;
+  }
+
+  .icon {
+    font-size: 26px;
+    line-height: 0.2;
+  }
+
+  /*************************/
+  /* FOOTER */
+  /*************************/
+  .footer {
+    font-size: 12px;
+    line-height: 1.4;
+  }
+
+  .footer-icon-box {
+    gap: 8px;
+    margin-bottom: 40px;
+  }
+
+  .footer-icon-box img {
+    width: 80%;
   }
 }
