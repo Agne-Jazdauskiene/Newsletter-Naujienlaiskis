@@ -1,34 +1,3 @@
-/* 
---- TYPOGRAPHY SYSTEM
-
-- Font sizes (px)
-16px
-21px
-14px
-13px
-
-- Font weights:
-Regular: 400
-Bold: 700
-
-- Line heights:
-Default: 1
-Heading: 1.5
-
---- COLORS
-
-- Primary: #4057e3
-- Tints: 
-- Shades: 
-- Accents:
-- Greys:
-
---- BORDER RADIUS
-
-Default: 6px
-
-*/
-
 html {
   overflow: scroll;
 }
