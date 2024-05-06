@@ -4,7 +4,7 @@ html {
 
 ::-webkit-scrollbar {
   width: 0px;
-  background: transparent; /* make scrollbar transparent */
+  background: transparent; /* scrollbar transparent */
 }
 
 * {
@@ -31,7 +31,6 @@ body {
 
 .container-scroll {
   width: 900px;
-  /* height: 2519px; */
   max-height: 800px;
   margin: 0 auto;
   background-color: #f4f5f7;
@@ -42,8 +41,6 @@ body {
 
 .container-inner {
   width: 640px;
-  /* height: 2350px; */
-  /* 2519 - 70 - 185.46 = 2263.54 px, bet per mažas */
   margin: 0 auto;
   background-color: #ffffff;
   padding: 50px 40px 0px 40px;

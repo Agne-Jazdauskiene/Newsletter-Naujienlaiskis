@@ -1,7 +1,3 @@
-/*************************/
-/* RESPONSIVE DESIGN */
-/*************************/
-
 /**************** DESKTOP ****************/
 
 @media screen and (max-width: 1024px) {
@@ -23,7 +19,6 @@
 
   .container-inner {
     width: 90%;
-    /* height: 2200px; */
   }
 
   .dividing-line {
@@ -88,8 +83,6 @@
   /*************************/
   .after-footer-text-box {
     width: 90%;
-
-    /* margin: 0px 25px 40px 25px; */
   }
 }
 
